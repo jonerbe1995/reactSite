@@ -8,6 +8,10 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.visualCampImages img {border-radius: 25px;}
+/* Gives visual campaign shots curved edges */
+.jon img {opacity: .5}
+/* Set header image to half opacity for better viewing */
 .w3-row-padding img {margin-bottom: 12px}
 /* Set the width of the sidebar to 120px */
 .w3-sidebar {width: 120px;background: #222;}
@@ -23,7 +27,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 <!-- Icon Bar (Sidebar - hidden on small screens) -->
 <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
   <!-- Avatar image in top left corner -->
-  <img src="/w3images/avatar_smoke.jpg" style="width:100%">
+  <img src="../public/JElogo.ico" style="width:100%">
   <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
     <i class="fa fa-home w3-xxlarge"></i>
     <p>HOME</p>
@@ -56,129 +60,147 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 <div class="w3-padding-large" id="main">
   <!-- Header/Home -->
   <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Jon Erbe.</h1>
-    <p>SQL Programmer and Web Designer.</p>
-    <img src="/w3images/man_smoke.jpg" alt="boy" class="w3-image" width="992" height="1108">
+    <h1 class="w3-jumbo"><span class="w3-hide-small"></span>Jon Erbe</h1>
+    <p>Web Designer & SQL Programmer.</p>
+    <div class="jon">
+    	<img src="../images/jb2.png" alt="Jonny Bravo" class="w3-image" width="992" height="1108">
+	</div>
   </header>
 
   <!-- About Section -->
   <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
     <h2 class="w3-text-light-grey">My Name</h2>
     <hr style="width:200px" class="w3-opacity">
-    <p>Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
-      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    <p>Currently a 5th-year Senior majoring in Communication Science at the University of Wisconsin-Madison, I have taken several rigorous classes and have been developing my knowledge and skills outside of the class room. These extracurriculars include my employment with Epistemic Analytics as well as my executive position of President for my school’s Software Development Club. The courses I have completed have given me a solid foundation in the tools, processes and methodologies involved in the successful development and analysis of programs. I have a proven ability to learn challenging concepts quickly and have developed competencies in diverse areas. My goal is to develop secure and robust websites and programs that advance innovative projects. I carry a drive for programming as well as managing programmers; working in a collective that will make consistently excellent code.
     </p>
     <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
-    <p class="w3-wide">Photography</p>
+    <p class="w3-wide">Full-Stack Web Development</p>
     <div class="w3-white">
       <div class="w3-dark-grey" style="height:28px;width:95%"></div>
     </div>
-    <p class="w3-wide">Web Design</p>
+    <p class="w3-wide">MySQL Administration</p>
     <div class="w3-white">
       <div class="w3-dark-grey" style="height:28px;width:85%"></div>
     </div>
-    <p class="w3-wide">Photoshop</p>
+    <p class="w3-wide">Quality Assurance</p>
     <div class="w3-white">
       <div class="w3-dark-grey" style="height:28px;width:80%"></div>
     </div><br>
     
     <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
       <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">11+</span><br>
+        <span class="w3-xlarge">5+</span><br>
+        Project Contributions
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">5+</span><br>
+        Years of Coding
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">7+</span><br>
+        Years of Work Experience
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">10+</span><br>
         Partners
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">55+</span><br>
-        Projects Done
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">89+</span><br>
-        Happy Clients
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">150+</span><br>
-        Meetings
       </div>
     </div>
 
+    <a href="../downloadables/JEResume.pdf">
     <button class="w3-button w3-light-grey w3-padding-large w3-section">
-      <i class="fa fa-download"></i> Download Resume
+      <i class="fa fa-download"></i> Download Resume 
     </button>
+    </a>
     
-    <!-- Grid for pricing tables -->
-    <h3 class="w3-padding-16 w3-text-light-grey">My Price</h3>
+    <!-- Grid for language tables -->
+    <h3 class="w3-padding-16 w3-text-light-grey">Languages</h3>
     <div class="w3-row-padding" style="margin:0 -16px">
       <div class="w3-half w3-margin-bottom">
         <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
           <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
-          <li class="w3-padding-16">Web Design</li>
-          <li class="w3-padding-16">Photography</li>
-          <li class="w3-padding-16">5GB Storage</li>
-          <li class="w3-padding-16">Mail Support</li>
-          <li class="w3-padding-16">
-            <h2>$ 10</h2>
-            <span class="w3-opacity">per month</span>
-          </li>
+          <li class="w3-padding-16">C, C#, & C++</li>
+          <li class="w3-padding-16">Angular JS</li>
+          <li class="w3-padding-16">Android</li>
+          <li class="w3-padding-16">Client Support</li>
           <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Endorse</button>
           </li>
         </ul>
       </div>
 
       <div class="w3-half">
         <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
-          <li class="w3-padding-16">Web Design</li>
-          <li class="w3-padding-16">Photography</li>
-          <li class="w3-padding-16">50GB Storage</li>
-          <li class="w3-padding-16">Endless Support</li>
-          <li class="w3-padding-16">
-            <h2>$ 25</h2>
-            <span class="w3-opacity">per month</span>
-          </li>
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Advanced</li>
+          <li class="w3-padding-16">Java</li>
+          <li class="w3-padding-16">HTML & CSS</li>
+          <li class="w3-padding-16">Javascript (Node & React)</li>
+          <li class="w3-padding-16">MySQL</li>
           <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Endorse</button>
           </li>
         </ul>
       </div>
-    <!-- End Grid/Pricing tables -->
+    <!-- End Grid tables -->
     </div>
     
     <!-- Testimonials -->
     <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>  
-    <img src="/w3images/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-    <p><span class="w3-large w3-margin-right">Chris Fox.</span> CEO at Mighty Schools.</p>
-    <p>Jane Doe saved us from a web disaster.</p><br>
+    <img src="../images/cody_headshot-230x220.png" alt="Cody" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Cody Marquart</span> Techincal Director at Epistemic Analyitcs. </p> 
+    <p>As the Technical Director at Epistemic Analytics, I have managed Jon Erbe for over three years. As Jon's responsibilities grew within the group, his adaptability and organization greatly developed along with it. He is very detail-oriented and quick to learn something new. Early in his employment, Jon provided live support to users of our virtual internships. He helped students, mentors, and teachers with any questions they had, while escalating issues when necessary. Jon exceled at this, monitoring numerous games simultaneously. However, I quickly saw his
+motivation and willingness to do much more.
+Within the first year, he was applying the knowledge obtained from assisting the virtual internships
+towards acting as a key member in the quality assurance phases in our development cycle. His
+attention to detail was well-suited for this, as it’s important to catch issues in the software early on. His
+participation, paired with his full understanding of our software, proved vital in our ability to provide
+users with stable software. Additionally, he learned to query our databases and organize the data collected from the virtual internships. His organization of data was crucial, as the data is used by graduate students, research staff and principal investigators in dissertations, quantitative research and journal articles. Job duties aside, in the lab, Jon is easygoing and, as a team-player, fit well in our collaborative environment. He has worked with many co-workers on a variety of tasks, while developing autonomy to work without explicit instruction. Overall, I highly recommend Jon for employment. His demeanor and ability to adapt to new tasks, coupled with his attention to detail and organized nature make him well-suited for most any work
+environment.</p><br>
     
-    <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-    <p><span class="w3-large w3-margin-right">Rebecca Flex.</span> CEO at Company.</p>
-    <p>No one is better than Jane Doe.</p>
+    <img src="../images/kreloff.jpg" alt="Ellery" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Ellery Kreloff</span> Data Engineer, Senior Associate at Capital One.</p>
+    <p>I have worked alongside Jon for two years in the Software Development Club as its chapter's president.
+It is my pleasure to recommend him for a full-time position with your organization.
+Jon's pure dedication and commitment fueled his rise up through our ranks. In four short semesters, he
+went from just a simple member, to outreach chair, to vice president, to the president after my leave. He
+is always outspoken, unafraid to voice his opinions and concerns, and always the first to volunteer to
+take up extra work.
+When our website needed a redesign, Jon was there to assist in any way that he could. He beta-tested
+our site on his own free time: testing responsiveness, trying URLs that didn't exist. Due to his expertise,
+we were able to overhaul our entire site. He also contributed to our code base, unafraid to learn technologies and concepts with which he was unfamiliar. I would describe his technical aptitude as
+excellent. During our club meetings, Jon is easygoing and friendly. With our sponsors, he builds up an easy rapport due to his natural charisma. Despite his amicable attitude, he can be nonetheless firm: always ensuring that our club meetings started on time and that our students were quiet. Overall, I highly recommend Jon; his natural skill and organized nature would make him a first-rate
+employee.</p>
   <!-- End About Section -->
   </div>
   
   <!-- Portfolio Section -->
   <div class="w3-padding-64 w3-content" id="photos">
-    <h2 class="w3-text-light-grey">My Photos</h2>
+    <h2 class="w3-text-light-grey">My Works</h2>
     <hr style="width:200px" class="w3-opacity">
 
     <!-- Grid for photos -->
     <div class="w3-row-padding" style="margin:0 -16px">
       <div class="w3-half">
-        <img src="/w3images/wedding.jpg" style="width:100%">
-        <img src="/w3images/rocks.jpg" style="width:100%">
-        <img src="/w3images/sailboat.jpg" style="width:100%">
+      	<div class="visualCampImages">
+	        <img src="../images/visualCampaign2.png" style="width:100%">
+	        <img src="../images/visualCampaign3.png" style="width:100%">
+	        <img src="../images/visualCampaign4.png" style="width:100%">
+    	</div>
       </div>
 
       <div class="w3-half">
-        <img src="/w3images/underwater.jpg" style="width:100%">
-        <img src="/w3images/chef.jpg" style="width:100%">
-        <img src="/w3images/wedding.jpg" style="width:100%">
-        <img src="/w3images/p6.jpg" style="width:100%">
+      	<div class="visualCampImages">
+        <img src="../images/visualCampaign5.png" style="width:100%">
+        <img src="../images/visualCampaign1.png" style="width:100%">
+        </div>
       </div>
     <!-- End photo grid -->
     </div>
-  <!-- End Portfolio Section -->
+    <a href="../downloadables/advocacySpeechFinal.docx">
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> Download Writing Sample
+    </button>
+    </a>
+    <!-- End Portfolio Section -->
   </div>
 
   <!-- Contact Section -->
@@ -209,13 +231,15 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   
     <!-- Footer -->
   <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
-    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  		<a href="https://www.facebook.com/jonathan.erbe.545">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    	<a href="https://www.instagram.com/erbeaderp/?hl=en">
+    <i class="fa fa-instagram w3-hover-opacity"></i></a>
+    	<a href="https://www.snapchat.com/view/erbeaderp">
+    <i class="fa fa-snapchat w3-hover-opacity"></i></a>
+    	<a href="https://www.linkedin.com/in/jonathan-erbe-776961122">
+    <i class="fa fa-linkedin w3-hover-opacity"></i></a>
+    <p class="w3-medium">Influenced by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3 schools</a></p>
   <!-- End footer -->
   </footer>
 
